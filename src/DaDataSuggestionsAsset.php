@@ -3,6 +3,7 @@
 namespace efureev\dadata;
 
 use yii\web\AssetBundle;
+
 /**
  * DaData Suggestions Asset AssetBundle
  */
