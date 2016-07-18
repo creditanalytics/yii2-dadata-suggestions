@@ -17,6 +17,14 @@ class Suggestions extends Widget
     public $type = "PARTY";
     public $count = 5;
 
+    public $onSelect;
+    public $onSelectNothing;
+    public $onInvalidateSelection;
+    public $onSearchStart;
+    public $onSearchComplete;
+    public $onSearchError;
+    public $onSuggestionsFetch;
+
     public function init()
     {
         parent::init();
@@ -39,13 +47,16 @@ $("' . $this->el . '").suggestions({
         serviceUrl: "' . $this->serviceUrl . '",
         token: "' . $this->token . '",
         type: "' . $this->type . '",
-        count: ' . $this->count . ',
-        onSelect: function(suggestion) {
-            console.log(suggestion);
-        }
-    });
+        count: ' . $this->count .
+            (empty($this->onSelect) ? '' : ', onSelect:' . $this->onSelect) .
+            (empty($this->onSelectNothing) ? '' : ', onSelectNothing:' . $this->onSelectNothing) .
+            (empty($this->onInvalidateSelection) ? '' : ', onInvalidateSelection:' . $this->onInvalidateSelection) .
+            (empty($this->onSearchStart) ? '' : ', onSearchStart:' . $this->onSearchStart) .
+            (empty($this->onSearchComplete) ? '' : ', onSearchComplete:' . $this->onSearchComplete) .
+            (empty($this->onSearchError) ? '' : ', onSearchError:' . $this->onSearchError) .
+            (empty($this->onSuggestionsFetch) ? '' : ', onSuggestionsFetch:' . $this->onSuggestionsFetch) .
+
+            '});
 ');
-
-
     }
 }
