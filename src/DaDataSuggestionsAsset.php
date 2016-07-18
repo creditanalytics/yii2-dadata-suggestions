@@ -16,6 +16,6 @@ class DaDataSuggestionsAsset extends AssetBundle
     ];
 
     public $depends = [
-        'yii\web\JqueryAsset',
+        'efureev\dadata\AutocompleteAsset',
     ];
 }

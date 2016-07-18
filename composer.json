@@ -13,7 +13,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/suggestions.jquery": "*"
+        "bower-asset/suggestions.jquery": "*",
+        "bower-asset/devbridge-autocomplete": "*"
     },
     "autoload": {
         "psr-4": {

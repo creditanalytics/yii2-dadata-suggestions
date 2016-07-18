@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  */
 class SuggestionsAsset extends AssetBundle
 {
-    public $sourcePath = '@efureev\dadata\assets';
+    public $sourcePath = '@efureev/dadata/assets';
 
     public $css = [
         'suggestions.css',
