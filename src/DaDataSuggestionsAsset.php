@@ -9,10 +9,14 @@ use yii\web\AssetBundle;
  */
 class DaDataSuggestionsAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/suggestions.jquery/dist';
+    public $sourcePath = '@vendor/hflabs/suggestions-jquery/dist';
 
     public $js = [
-        'suggestions-jquery.min.js'
+        'js/jquery.suggestions.min.js'
+    ];
+
+    public $css = [
+        'css/suggestions.css'
     ];
 
     public $depends = [
