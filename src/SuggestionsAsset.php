@@ -15,7 +15,7 @@ class SuggestionsAsset extends AssetBundle
         'suggestions.css',
     ];
 
-    public $оы = [
+    public $js = [
         'suggestions.js',
     ];
 
