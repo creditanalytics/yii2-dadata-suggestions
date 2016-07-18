@@ -14,7 +14,9 @@ class Suggestions extends Widget
     public $token;
     public $el;
     public $serviceUrl = "https://suggestions.dadata.ru/suggestions/api/4_1/rs";
+
     public $type = "PARTY";
+
     public $count = 5;
 
     public $onSelect;
@@ -25,12 +27,17 @@ class Suggestions extends Widget
     public $onSearchError;
     public $onSuggestionsFetch;
 
+    private $types = ['NAME', 'ADDRESS', 'PARTY', 'BANK', 'EMAIL'];
+
     public function init()
     {
         parent::init();
 
         if (!$this->token || !$this->el)
             throw new Exception('Не правильный конфиг');
+
+        if (!in_array($this->type, $this->types))
+            throw new Exception('Не правильный тип данных.');
     }
 
     public function run()

@@ -14,13 +14,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist efureev/yii2-dadata-suggestions:"~0.0.4"
+php composer.phar require --prefer-dist efureev/yii2-dadata-suggestions:"~0.0.5"
 ```
 
 or add
 
 ```json
-"efureev/yii2-dadata-suggestions": "~0.0.4"
+"efureev/yii2-dadata-suggestions": "~0.0.5"
 ```
 
 to the `require-dev` section of your `composer.json`.
