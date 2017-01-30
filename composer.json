@@ -13,7 +13,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "16.8.0",
+        "hflabs/suggestions-jquery": "*",
         "bower-asset/devbridge-autocomplete": "*"
     },
     "repositories":[
@@ -21,7 +21,7 @@
             "type":"package",
             "package":{
                 "name":"hflabs/suggestions-jquery",
-                "version":"16.8.0",
+                "version":"*",
                 "source":{
                     "type":"git",
                     "url":"https://github.com/hflabs/suggestions-jquery",
