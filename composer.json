@@ -13,7 +13,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "*",
+        "hflabs/suggestions-jquery": "v16.10.3",
         "bower-asset/devbridge-autocomplete": "*"
     },
     "repositories":[
