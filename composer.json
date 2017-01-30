@@ -15,7 +15,7 @@
         {
             "type":"package",
             "package":{
-                "name":"hflabs/suggestions-jquery",
+                "name":"suggestions-jquery",
                 "version":"16.10.3",
                 "source":{
                     "type":"git",
@@ -27,7 +27,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "*",
+        "suggestions-jquery": "*",
         "bower-asset/devbridge-autocomplete": "*"
     },
     "autoload": {
