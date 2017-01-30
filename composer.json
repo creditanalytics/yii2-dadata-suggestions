@@ -15,7 +15,7 @@
         {
             "type":"package",
             "package":{
-                "name":"/hflabs/suggestions-jquery",
+                "name":"hflabs/suggestions-jquery",
                 "version":"16.10.3",
                 "dist":{
                     "url":"https://github.com/hflabs/suggestions-jquery/archive/16.10.3.zip",
