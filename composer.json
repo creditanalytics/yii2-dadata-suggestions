@@ -19,7 +19,7 @@
                 "version":"16.10.4",
                 "source":{
                     "type":"git",
-                    "url":"https://github.com/creditanalytics/suggestions-jquery",
+                    "url":"https://github.com/creditanalytics/suggestions-jquery.git",
                     "reference":"master"
                 }
             }
