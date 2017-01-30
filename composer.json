@@ -18,16 +18,8 @@
     },
     "repositories":[
         {
-            "type":"package",
-            "package":{
-                "name":"hflabs/suggestions-jquery",
-                "version":"*",
-                "source":{
-                    "type":"git",
-                    "url":"https://github.com/hflabs/suggestions-jquery",
-                    "reference":"master"
-                }
-            }
+            "type":"git",
+            "url":"https://github.com/hflabs/suggestions-jquery"
         }
     ],
     "autoload": {
