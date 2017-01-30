@@ -11,10 +11,18 @@
             "email": "fureev@gmail.com"
         }
     ],
-    "repositories":[
+   "repositories":[
         {
-           "type": "git",
-            "url": "https://github.com/hflabs/suggestions-jquery.git"
+            "type":"package",
+            "package":{
+                "name":"hflabs/suggestions-jquery",
+                "version":"16.12.0",
+                "source":{
+                    "type":"git",
+                    "url":"https://github.com/hflabs/suggestions-jquery",
+                    "reference":"master"
+                }
+            }
         }
     ],
     "require": {
