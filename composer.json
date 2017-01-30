@@ -11,28 +11,20 @@
             "email": "fureev@gmail.com"
         }
     ],
-    "require": {
-        "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "v16.10.3",
-        "bower-asset/devbridge-autocomplete": "*"
-    },
-    "repositories":[
+    "repositories": [
         {
-            "type":"package",
-            "package":{
-                "name":"hflabs/suggestions-jquery",
-                "version":"v16.10.3",
-                "source":{
-                    "type":"git",
-                    "url":"https://github.com/hflabs/suggestions-jquery",
-                    "reference":"master"
-                }
-            }
+            "type": "git",
+            "url": "https://github.com/hflabs/suggestions-jquery.git"
         }
     ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "hflabs/suggestions-jquery": "*",
+        "bower-asset/devbridge-autocomplete": "*"
+    },
     "autoload": {
         "psr-4": {
-            "efureev\\dadata\\": "src"
+            "creditanalytics\\dadata\\": "src"
         }
     },
     "extra": {
