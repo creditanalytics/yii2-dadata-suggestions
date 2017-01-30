@@ -17,17 +17,16 @@
             "package":{
                 "name":"/hflabs/suggestions-jquery",
                 "version":"16.10.3",
-                "source":{
-                    "type":"git",
-                    "url":"https://github.com/hflabs/suggestions-jquery",
-                    "reference":"master"
+                "dist":{
+                    "url":"https://github.com/hflabs/suggestions-jquery/archive/16.10.3.zip",
+                    "type": "zip"
                 }
             }
         }
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "creditanalytics/suggestions-jquery": "16.10.3",
+        "hflabs/suggestions-jquery": "16.10.3",
         "bower-asset/devbridge-autocomplete": "*"
     },
     "autoload": {
