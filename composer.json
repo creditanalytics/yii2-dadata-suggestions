@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2", "suggestions", "dadata"],
     "license": "MIT",
-    "version": "0.0.7",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Eugene Fureev",
