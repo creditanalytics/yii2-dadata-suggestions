@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2", "suggestions", "dadata"],
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Eugene Fureev",
@@ -12,6 +12,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "hflabs/suggestions-jquery": "*",
+        "bower-asset/devbridge-autocomplete": "*"
+    },
     "repositories":[
         {
             "type":"package",
@@ -19,18 +24,13 @@
                 "name":"hflabs/suggestions-jquery",
                 "version":"16.10.3",
                 "source":{
-                    "name":"hflabs/suggestions-jquery",
+                    "name":"suggestions-jquery",
                     "url":"https://github.com/hflabs/suggestions-jquery",
                     "reference":"master"
                 }
             }
         }
     ],
-    "require": {
-        "yiisoft/yii2": "*",
-        "hflabs/suggestions-jquery": "*",
-        "bower-asset/devbridge-autocomplete": "*"
-    },
     "autoload": {
         "psr-4": {
             "creditanalytics\\dadata\\": "src"
