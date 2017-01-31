@@ -14,7 +14,7 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "creditanalytics/suggestions-jquery": "*",
+        "creditanalytics/suggestions-jquery": "16.10.3",
         "bower-asset/devbridge-autocomplete": "*"
     },
     "repositories":[
