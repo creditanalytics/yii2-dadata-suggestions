@@ -20,7 +20,7 @@
     "repositories":[
         {
           "type":"git",
-          "url":"https://github.com/hflabs/suggestions-jquery",
+          "url":"https://github.com/hflabs/suggestions-jquery"
         }
     ],
     "autoload": {
