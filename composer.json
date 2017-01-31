@@ -20,7 +20,7 @@
     "repositories":[
         {
           "type":"git",
-          "url":"https://github.com/creditanalytics/suggestions-jquery"
+          "url":"https://github.com/creditanalytics/suggestions-jquery.git"
         }
     ],
     "autoload": {
