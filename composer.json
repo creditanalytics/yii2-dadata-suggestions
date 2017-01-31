@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2", "suggestions", "dadata"],
     "license": "MIT",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "authors": [
         {
             "name": "Eugene Fureev",
@@ -14,15 +14,9 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "creditanalytics/suggestions-jquery": "16.10.3",
+        "creditanalytics/suggestions-jquery": "*",
         "bower-asset/devbridge-autocomplete": "*"
     },
-    "repositories":[
-        {
-          "type":"git",
-          "url":"https://github.com/creditanalytics/suggestions-jquery.git"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "creditanalytics\\dadata\\": "src"
