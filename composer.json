@@ -11,15 +11,16 @@
             "email": "fureev@gmail.com"
         }
     ],
-   "repositories":[
+    "minimum-stability": "dev",
+    "repositories":[
         {
             "type":"package",
             "package":{
-                "name":"creditanalytics/suggestions-jquery",
+                "name":"hflabs/suggestions-jquery",
                 "version":"16.10.3",
                 "source":{
-                    "name":"creditanalytics/suggestions-jquery",
-                    "url":"https://github.com/creditanalytics/suggestions-jquery",
+                    "name":"hflabs/suggestions-jquery",
+                    "url":"https://github.com/hflabs/suggestions-jquery",
                     "reference":"master"
                 }
             }
@@ -27,7 +28,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "creditanalytics/suggestions-jquery": "16.10.3",
+        "hflabs/suggestions-jquery": "*",
         "bower-asset/devbridge-autocomplete": "*"
     },
     "autoload": {
