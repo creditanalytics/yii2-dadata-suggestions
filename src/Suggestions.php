@@ -1,6 +1,6 @@
 <?php
 
-namespace efureev\dadata;
+namespace creditanalytics\dadata;
 
 use yii\base\Exception;
 use yii\base\Widget;
