@@ -20,6 +20,6 @@ class DaDataSuggestionsAsset extends AssetBundle
     ];
     
     public $depends = [
-        'creditanalytics\dadata\AutocompleteAsset',
+        'creditanalytics\dadata\JqueryJsonAsset',
     ];
 }
