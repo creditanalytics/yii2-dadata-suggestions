@@ -18,4 +18,8 @@ class DaDataSuggestionsAsset extends AssetBundle
     public $css = [
         'css/suggestions.css'
     ];
+    
+    public $depends = [
+        'creditanalytics\dadata\AutocompleteAsset',
+    ];
 }
