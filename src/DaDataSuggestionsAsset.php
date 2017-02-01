@@ -1,6 +1,6 @@
 <?php
 
-namespace efureev\dadata;
+namespace creditanalytics\dadata;
 
 use yii\web\AssetBundle;
 
@@ -17,9 +17,5 @@ class DaDataSuggestionsAsset extends AssetBundle
 
     public $css = [
         'css/suggestions.css'
-    ];
-
-    public $depends = [
-        'efureev\dadata\AutocompleteAsset',
     ];
 }
