@@ -7,12 +7,12 @@ use yii\web\AssetBundle;
 /**
  * Jquery Autocomplete AssetBundle
  */
-class AutocompleteAsset extends AssetBundle
+class JqueryJsonAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/devbridge-autocomplete/dist';
+    public $sourcePath = '@bower/jquery-json/dist';
 
     public $js = [
-        'jquery.autocomplete.min.js'
+        'jquery.json.min.js'
     ];
 
     public $depends = [
